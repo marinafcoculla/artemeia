@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Geologica:wght@200&family=Jost:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+
+body{ 
+	font-family: 'Jost', sans-serif;
+	margin:0;
+}
+.nomempresa {
+	align-self: flex;
+	color:white;
+	margin-left:120px;
+	font-size:24px;
+}
+
+header{ 
+	display: flex;
+	background-color:#700f22;
+	justify-content:space-between;
+	padding:10px;
+	align-items:center;
+}
+
+a{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+.menu{
+	margin-right:120px;
+}
+
+nav a{
+	font-family: 'Jost', sans-serif;
+	font-size:20px;
+	padding:10px;
+
+}		
+
+a:hover{
+	background:#e4985c;
+	padding:27px;	
+}
+
+#caixa{
+	background-color:#fffdfe;
+	width:470px;
+	height:150px;
+	margin:auto;
+	border-width:2px;
+	text-align:center;
+	align-items:center;
+	display: flex;
+	flex-direction: row;
+	margin-top:-100px;
+	margin-left:580px;
+}
+
+#vermell{
+	background: #332F2E;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	margin:auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+}
+#lila{
+	background: #332F2E;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	margin:auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+}
+#verd{
+	background: #332F2E;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+	margin:auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+}
+
+#noia {
+	flex-direction:column;
+	margin-left:110px;
+	margin-top: 70px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display:flex;
+	width:250px;
+	height:335px;
+}
+
+#porta{
+	flex-direction:column;
+	margin-left:110px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display:flex;
+	width:250px;
+	height:335px;
+}
+
+
+
+.info{
+	display: flex;
+	flex-direction:column;
+	column-gap: 150px;
+	margin-left:400px;
+	margin-right: 120px;
+	margin-top:-680px;
+}
+
+#marefilla{
+	text-align:center;
+	font-family: 'Jost', sans-serif;
+	color:black;
+}
+
+main p{
+	font-family:'Geologica', sans-ser;
+	color:black;
+	text-align: justify;
+	flex-direction:column;
+	margin-bottom:90px;
+}
+
+.logo img {
+	width:120px;
+	height:120px;
+	border-radius: 239px;
+	display: flex;
+}
+
+
+footer{
+	background-color:#700f22;
+	margin-top:50px;
+	margin-bottom:5px;
+	width:100%;
+	height:250px;
+	
+}
+
+#grup1{
+	color:white;
+	font-family: 'Geologica', sans-ser;
+	font-size:16px;
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	margin-bottom:25px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+	
+}
+
+#grup1 .logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#grup1 .avisoslegals{
+	display:flex;
+	justify-content:center;
+	
+}
+
+#grup1 .segueixnos{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-top:-17.2px;
+
+}
+
+#xarxes {
+	width:40px;
+	height:40px;
+	display:flex;
+	
+}
+.avisoslegals h3{
+	font-family: 'Jost', sans-serif;
+	
+}
+
+.segueixnos h3{
+	font-family: 'Jost', sans-serif;
+}
+
+
+/*iPad Mini*/
+
+@media screen and (min-height:1024px){
+	figure{
+		display:flex;
+	}		
+	
+	nav a{
+	font-size:15px;
+	padding:6px;
+	}	
+
+	a:hover{
+	padding:9px;	
+}
+
+.info{
+	margin-top: -710px;
+
+}
+}
+
+/*Samsung*/
+
+@media screen and (min-height:740px){
+	figure{
+		display:flex;
+	}		
+	
+	nav a{
+	font-size:15px;
+	padding:6px;
+	}	
+
+	a:hover{
+	padding:9px;	
+}
+
+.info{
+	margin-top: -860px;
+
+}
+
+
+#noia {
+	margin-bottom: 90px;
+}
+
+.portanoia{
+	margin-top: 200px;
+}
+
+#caixa{
+	margin:auto;
+	text-align:center;
+	align-items:center;
+	display: flex;
+	flex-direction: row;
+}
+}

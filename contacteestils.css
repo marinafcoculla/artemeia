@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*importar fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Geologica:wght@200&family=Jost:wght@600&display=swap');
+
+body{ 
+	font-family: 'Jost', sans-serif;
+	margin:0;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	background-image: url("imatgefons.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+header,footer{
+	background-color: transparent;
+	box-sizing: border-box;
+}
+
+
+a:hover,columna2{
+	text-decoration:none;
+	background:none;
+	
+}
+
+#columna1{
+	display:column;
+	position:absolute;
+	top:0px;
+	left:100px;
+	width:200px;
+	margin-top:150px;
+	margin-bottom:70px;
+	justify-content:center;
+}
+
+#columna2{
+	margin-left:550px;
+	margin-top:10px;
+	display:flex;
+	flex-direction:column;
+	all: unset;
+}
+
+
+#columna3{
+	margin-left:350px;
+	margin-top:-200px;
+	display:flex;
+	flex-direction:column;
+}
+
+.Quadretext{
+	width: 650px; 
+    height: 450px;
+	border: none;
+    background: #5B1213;
+	margin-left: 550px;
+	padding: 20px;
+}
+
+
+#Parlem{ /*títol*/
+	color:8C454D;
+	text-align:center;
+	font-size: 30px;
+	margin-left: 450px;
+}
+
+#Conjunt{
+	align-items:center;
+	justify-content: center;
+}
+
+form{
+	font-family: 'Geologica', sans-ser;
+}
+
+textarea {
+  width: 70%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+/*FI:Formulari*/
+
+
+.nomempresa {
+	align-self: flex;
+	color:white;
+	margin-left:120px;
+	font-size:24px;
+}
+p{
+	font-family: 'Geologica', sans-ser;
+}
+header{ 
+	display: flex;
+	background-color:#700f22;
+	justify-content:space-between;
+	padding:10px;
+	align-items:center;
+	opacity:none;
+	margin-bottom: 10px;
+	width:100%;
+}
+
+a{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+.menu{
+	margin-right:120px;
+}
+
+nav a{
+	font-family: 'Jost', sans-serif;
+	font-size:20px;
+	padding:10px;
+
+}	
+ 
+a:not(#columna2 a):hover{
+	background:#e4985c;
+	padding:27px;	
+}
+
+.logo img {
+	width:120px;
+	height:120px;
+	border-radius: 239px;
+	display: flex;
+}
+
+
+footer{
+	background-color:#700f22;
+	margin-top:40px;
+	margin-bottom:5px;
+	width:100%;
+	height:250px;
+	opacity:none;
+	display:flex;
+}
+
+
+#grup1{
+	color:white;
+	font-family: 'Geologica', sans-ser;
+	font-size:16px;
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	margin-bottom:25px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+	
+}
+
+#grup1 .logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#grup1 .avisoslegals{
+	display:flex;
+	justify-content:center;
+	
+}
+
+#grup1 .segueixnos{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-top:-17.2px;
+
+}
+
+#xarxes {
+	width:40px;
+	height:40px;
+	display:flex;
+	
+}
+.avisoslegals h3{
+	font-family: 'Jost', sans-serif;
+	
+}
+
+.segueixnos h3{
+	font-family: 'Jost', sans-serif;
+}
+
+
+/*iPad Mini*/
+
+@media screen and (max-width:768px){
+	figure{
+		background-color:red;
+		display:flex;
+	}		
+	
+	nav a{
+	font-family:Jost;
+	font-size:14px;
+	padding:5px;
+	justify-content:flex-end;
+	}			
+}
+
+
+@media screen and (min-height:1024px){
+	figure{
+		background-color:red;
+		display:flex;
+	}		
+	
+	nav a{
+	font-family:Jost;
+	font-size:14px;
+	padding:5px;
+	justify-content:flex-end;
+	}			
+
+	a:hover{
+		padding:9px;	
+	}
+	
+}

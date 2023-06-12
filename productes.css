@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*importar fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Geologica:wght@200&family=Jost:wght@600&display=swap');
+
+body{ 
+	font-family: 'Jost', sans-serif;
+	margin:0px;
+}
+h4{
+	font-size: 35;
+	text-align: center; 
+	color: #700f22;
+}
+img{
+	margin-bottom: 15px;
+}
+.text{
+	 color: white;
+	 background-color: #700f22;
+	 padding-left: 10px; 
+	 padding-right: 10px;
+	 padding-top: 10px; 
+	 padding-bottom: 10px;
+	 display: inline;
+	 margin-top: 5px;
+	 margin-bottom: 50px;
+}
+#menstruació{
+	align-items: center;
+	display: flex; 
+}
+#calces{
+	margin-right: 40px;
+	margin-left: 250px; 
+}
+#compreses{
+	margin-right: 40px; 
+}
+#copes{
+	margin-right: 250px;
+}
+#consciència{
+	align-items: center;
+	display: flex; 
+}
+#llibres{
+	margin-right: 40px;
+	margin-left: 250px; 
+}
+#bosses{
+	margin-right: 40px; 
+}
+#material{
+	margin-right: 250px;
+}
+
+li{
+	background-color: #700f22;
+	color: white ;
+	border: 25px; 
+	font-size: 12px;
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+	padding-left: 5px;
+	padding-right: 5px; 
+	margin-right: 940px;
+	margin-left: 250px;
+	
+	
+}
+
+h2{
+	display:flex;
+	justify-content: center;
+}
+.nomempresa {
+	align-self: flex;
+	color:white;
+	margin-left:120px;
+	font-size:24px;
+}
+
+header{ 
+	display: flex;
+	background-color:#700f22;
+	justify-content:space-between;
+	padding:10px;
+	align-items:center;
+}
+
+a{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+.menu{
+	margin-right:120px;
+}
+
+nav a{
+	font-family: 'Jost', sans-serif;
+	font-size:20px;
+	padding:10px;
+
+}	
+
+a:hover{
+	background:#e4985c;
+	padding:27px;	
+}
+
+.logo img {
+	width:120px;
+	height:120px;
+	border-radius: 239px;
+	display: flex;
+}
+
+
+footer{
+	background-color:#700f22;
+	margin-top:100px;
+	margin-bottom:5px;
+	width:100%;
+	height:250px;
+	
+}
+
+#grup1{
+	color:white;
+	font-family: 'Geologica', sans-ser;
+	font-size:16px;
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	margin-bottom:25px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+	
+}
+
+#grup1 .logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#grup1 .avisoslegals{
+	display:flex;
+	justify-content:center;
+	
+}
+
+#grup1 .segueixnos{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-top:-17.2px;
+
+}
+
+#xarxes {
+	width:40px;
+	height:40px;
+	display:flex;
+	
+}
+.avisoslegals h3{
+	font-family: 'Jost', sans-serif;
+	
+}
+
+.segueixnos h3{
+	font-family: 'Jost', sans-serif;
+}
+
+
+
+/*iPad Mini*/
+
+@media screen and (min-height:1024px){
+	figure{
+		display:flex;
+		margin:0px;
+	}		
+	
+	nav a{
+	font-size:15px;
+	padding:5px;
+	}	
+
+	a:hover{
+	padding:9px;	
+}
+
+.info{
+	margin-top: -710px;
+
+}
+}
+
+/*Samsung*/
+
+@media screen and (min-height:740px){
+	figure{
+		display:flex;
+	}		
+	
+	nav a{
+	font-size:15px;
+	padding:6px;
+	}	
+
+	a:hover{
+	padding:9px;	
+}
+
+.info{
+	margin-top: -860px;
+
+}
+
+
+#noia {
+	margin-bottom: 90px;
+}
+
+.portanoia{
+	margin-top: 200px;
+}
+
+#caixa{
+	margin:auto;
+	text-align:center;
+	align-items:center;
+	display: flex;
+	flex-direction: row;
+}
+}

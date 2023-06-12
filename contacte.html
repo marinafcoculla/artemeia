@@ -1,0 +1,117 @@
+<html>
+<head>
+			<title>artemeia/contacte</title>
+			<meta charset="UTF-8">
+			<meta name="description" content="Pàgina web Artemeia">
+			<meta name="keywords" content="HTML, CSS">
+			<meta name="viewpoint" content="width=device-width,inital-scale=1.0">
+			<link href= "contacteestils.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>	
+			
+			<div class="nomempresa"><a href="index.html"><h2>ARTEMEIA</h2></div></a>
+			
+			<nav class="menu">
+					<a href="projecte1.html">ARTEMEIA</a>
+					<a href="tallers.html">QUÈ OFEREIXO?</a>
+					<a href="calendari.html">CALENDARI</a>
+					<a href="productes.html">MATERIAL</a>
+					<a href="contacte.html">CONTACTE</a>		
+			</nav>
+	</header>
+	<div id="Conjunt">
+	
+		<div id= "columna1"> <img src="SalaTreball.jpg" width="361" height="599"> </div>
+		
+		
+		<div id="Parlem"> <h2>PARLEM?</h2> </div>
+		<div class="Quadretext">
+			
+		<div id= "columna2">
+				<h3>CONTACTE</h3>
+					<p><a href="mailto:infoartemeia@gmail.com">infoartemeia@gmail.com</a>
+					<br><a href="tel:+43655776340">+43 655 77 63 40</a></p>
+				<h3>UBICACIÓ</h3>
+				<p>Espai Artemeia.<br>Carrer Major, 5 de Sant Martí de Tous,<br> Barcelona.</p>
+		</div>	
+				
+		<div id="columna3"> 
+				<form id="contacte">					
+					<label for="nom">Nom i cognoms:*</label>
+					<input id="nom" name="nom" required>
+					<br>
+					<br>
+						
+					<label for="correu">Correu electrònic:*</label>
+					<input id="correu" name="correu" required type="email">
+					<br>
+					<br>
+						
+					<label for="telefon">Telèfon:</label>
+					<input id="telefon" name="telefon" type="tel">
+					<br>
+					<br>
+						
+					<label for="desti">Concepte:</label>
+					<select id="desti" name="desti">
+						<option>Assistència a tallers</option>
+						<option>Contractació de tallers</option>
+						<option>Productes</option>
+						<option>Altres</option>	
+					</select>
+					<br>
+					<br>
+						
+					<label for="textmail">El teu missatge:</label>
+					<textarea></textarea>
+					<br>
+					<br>
+						
+					<label for="privacitat">He llegit la política de privacitat:</label>
+					<input id="privacitat" name="privacitat" type="checkbox">
+					<br>
+					<br>
+						
+					<input id="enviar" type="submit" value="Envia el formulari">
+					<input id="reset" type="reset" value="Esborra el formulari">
+					<p>* Camps obligatoris</p>
+					<br>
+					<br>
+					<br>
+				</form>
+		</div>
+		</div>
+	</div>
+		
+<footer>
+	<div id="grup1">
+		<div class="logo">
+			<div class="box">
+					<a href="#">
+						<img src="logoprovisional.jpg" alt="Artmeia" title="Artemeiea"></img>
+					</a>
+			</div>
+		</div> 
+		
+		<div class="avisoslegals">
+			<div class="box">
+				<h3>Més info</h3>
+					<a href="politicaprivaci.html"><p>Avís legal</p></a>
+					<a href="contacte.html"><p>Contacte</p></a>
+					<a href="tallers.html"><p>Tallers</p></a>
+			</div>	
+		</div>
+		
+		<div class="segueixnos">
+			<h3>Segueix-nos!</h3>
+				<div class="box">
+					<a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img src="correu.png"  id= "xarxes" alt="correu"></a>
+					<a href="https://www.instagram.com/artemeia_/channel/" target="_blank"><img src="instagram.png"  id= "xarxes" alt="instagram"</a>
+			</div>
+		</div>
+	</div>	
+	</footer>
+</body>
+</html>

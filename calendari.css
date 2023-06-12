@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*importar fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Geologica:wght@200&family=Jost:wght@600&display=swap');
+
+body{ 
+	font-family: 'Jost', sans-serif;
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	background-image: url("calendari.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    }
+
+	   
+.nomempresa {
+	align-self: flex;
+	color:white;
+	margin-left:120px;
+	font-size:24px;
+}
+
+header{ 
+	display: flex;
+	background-color:#700f22;
+	justify-content:space-between;
+	padding:10px;
+	align-items:center;
+}
+
+a{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+}
+.menu{
+	margin-right:120px;
+}
+
+nav a{
+	font-family: 'Jost', sans-serif;
+	font-size:20px;
+	padding:10px;
+
+}	
+
+a:hover{
+	background:#e4985c;
+	padding:27px;	
+}
+
+.logo img {
+	width:120px;
+	height:120px;
+	border-radius: 239px;
+	display: flex;
+}
+
+
+#titolcalendari{
+	text-align:center;
+	font-family: 'Jost', sans-serif;
+	font-size:40px;
+	color:white;
+	margin-bottom:-80px;
+	margin-top:50px;
+	}
+	
+	
+#cuadrado{
+	align-items:center;
+	justify-content: center;
+	
+}
+
+
+#columna1{
+	margin-left:550px;
+	margin-right:100px;
+	margin-top:10px;
+	display:flex;
+	flex-direction:column;
+	all: unset;
+	justify-content:center;
+	text-align:center;
+}
+
+
+#columna2{
+	margin-left:300px;
+	margin-top:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+}
+
+
+	
+h3{
+      font-family: 'Jost', sans-serif;
+	  font-size:17px;
+	  padding:9px;
+	  margin-bottom:-4px;
+	  line-height:3px; 
+	  text-align:center;
+}  
+	
+p{
+      font-family: 'Geologica', sans-ser;
+	  font-size:15px;
+	  padding:9px;
+	  flex-direction:column;
+	  margin-top:2px;
+	  margin-bottom:2px;
+	  margin-left:5px;
+}  
+ 
+
+	 
+li{
+	  font-family: 'Geologica', sans-ser;
+	  font-size:15px;
+	  padding:9px;
+	  flex-direction:column;
+	  margin-top:2px;
+	  margin-bottom:2px;
+	  margin-left:10px;
+	  margin-right:10px
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color:#700f22;
+	margin-top:100px;
+	margin-bottom:5px;
+	width:100%;
+	height:250px;
+	
+}
+
+#grup1{
+	color:white;
+	font-family: 'Geologica', sans-ser;
+	font-size:16px;
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	margin-bottom:25px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+	
+}
+
+#grup1 .logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#grup1 .avisoslegals{
+	display:flex;
+	justify-content:center;
+	
+}
+
+#grup1 .segueixnos{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	margin-top:-17.2px;
+
+}
+
+#xarxes {
+	width:40px;
+	height:40px;
+	display:flex;
+	
+}
+.avisoslegals h3{
+	font-family: 'Jost', sans-serif;
+	
+}
+
+.segueixnos h3{
+	font-family: 'Jost', sans-serif;
+	margin-right:250px;
+	margin-bottom:10px;
+	
+}
+
+
+/*iPad Mini*/
+
+@media screen and (max-width:768px){
+	figure{
+		background-color:red;
+		display:flex;
+	}		
+	
+	nav a{
+	font-family:Jost;
+	font-size:14px;
+	padding:5px;
+	justify-content:flex-end;
+	}			
+}
+
+
+@media screen and (min-height:1024px){
+	figure{
+		background-color:red;
+		display:flex;
+	}		
+	
+	nav a{
+	font-family:Jost;
+	font-size:14px;
+	padding:5px;
+	justify-content:flex-end;
+	}			
+
+	a:hover{
+		padding:9px;	
+	}
+}
